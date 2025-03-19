@@ -1,8 +1,10 @@
 # RedDSM5: A Reddit Dataset for DSM-5 Depression Detection
+
 <div align="center">
-    <p align="center">[Eliseo Bao](mailto:eliseo.bao@udc.es), [Anxo Pérez](mailto:anxo.pvila@udc.es)<sup>a</sup>, [Javier Parapar](mailto:javier.parapar@udc.es)</p>
-    <p align="center"> IRLab, CITIC, Universidade da Coruña</p>
+  <a href="mailto:eliseo.bao@udc.es">Eliseo Bao</a>, <a href="mailto:anxo.pvila@udc.es">Anxo Pérez</a> and <a href="mailto:javier.parapar@udc.es">Javier Parapar</a>
+  <p>IRLab, CITIC, Universidade da Coruña, A Coruña, Spain</p>
 </div>
+
 
 ## Acknowledgements
 
