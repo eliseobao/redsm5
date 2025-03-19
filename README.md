@@ -1,4 +1,4 @@
-# RedDSM5: A Reddit Dataset for DSM-5 Depression Detection
+# ReDSM5: A Reddit Dataset for DSM-5 Depression Detection
 
 <div align="center">
   <a href="mailto:eliseo.bao@udc.es">Eliseo Bao</a>, <a href="mailto:anxo.pvila@udc.es">Anxo Pérez</a> and <a href="mailto:javier.parapar@udc.es">Javier Parapar</a>
