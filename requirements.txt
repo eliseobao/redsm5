@@ -1,0 +1,10 @@
+jupyter
+ipykernel
+pandas
+numpy
+scikit-learn
+torch
+transformers
+tqdm
+keras
+tensorflow
