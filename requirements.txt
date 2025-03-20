@@ -9,5 +9,6 @@ tqdm
 keras
 tensorflow
 spacy
+gensim
 matplotlib
 nrclex
