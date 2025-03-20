@@ -9,3 +9,5 @@ tqdm
 keras
 tensorflow
 spacy
+matplotlib
+nrclex
