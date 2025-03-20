@@ -1,2 +1,5 @@
+private
+data/raw
 slurm/logs
 data/redsm5.csv
+data/available_metahate.tsv
