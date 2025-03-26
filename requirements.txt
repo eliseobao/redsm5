@@ -12,3 +12,5 @@ spacy
 gensim
 matplotlib
 nrclex
+datasets
+evaluate
