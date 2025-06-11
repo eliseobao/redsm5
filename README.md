@@ -1,14 +1,8 @@
 # ⚕️💬 ReDSM5: A Reddit Dataset for DSM-5 Depression Detection
 
-<!-- Author list (center-aligned) -->
-<div style="text-align:center; line-height:1.4; font-family:system-ui, sans-serif;">
-
-  <!-- Authors with numbered affiliations -->
-  <a href="mailto:eliseo.bao@udc.es"><strong>Eliseo Bao</strong></a>, <a href="mailto:anxo.pvila@udc.es"><strong>Anxo Pérez</strong></a>, <a href="mailto:javier.parapar@udc.es"><strong>Javier Parapar</strong></a>
-
-  <!-- Affiliation list -->
-  IRLab, CITIC, Universidade da Coruña, A Coruña, Spain<br>
-
+<div align="center">
+  <a href="mailto:eliseo.bao@udc.es">Eliseo Bao</a>, <a href="mailto:anxo.pvila@udc.es">Anxo Pérez</a> and <a href="mailto:javier.parapar@udc.es">Javier Parapar</a>
+  <p>IRLab, CITIC, Universidade da Coruña, A Coruña, Spain</p>
 </div>
 
 ## Abstract
