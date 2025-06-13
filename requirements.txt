@@ -14,3 +14,7 @@ matplotlib
 nrclex
 datasets
 evaluate
+instructor
+notebook
+seaborn
+wordcloud
