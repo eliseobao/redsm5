@@ -75,6 +75,52 @@ After access, the download includes (see full dataset card for details)
 * **redsm5\_posts.csv**: complete text of 1,484 posts
 * **redsm5\_annotations.csv**: sentence-level annotations including DSM-5 symptoms, clinician rationales, statuses, and sentence IDs
 
+
+## 🔧 Environment Setup
+
+You can run the project either using a Docker container or your local Python environment.
+
+### 🚀 Option 1: Using Docker (recommended for GPU users)
+
+To build and run the Docker container with GPU support and Jupyter access:
+
+#### 1. Build the image
+
+```bash
+docker build -t redsm5 .
+```
+
+#### 2. Launch the container
+
+```bash
+docker run --gpus all -p 8888:8888 -v $(pwd):/workspace -w /workspace redsm5 /bin/bash -c "jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''"
+```
+
+* This mounts the current directory into the container at `/workspace`
+* Jupyter will be accessible at [http://localhost:8888](http://localhost:8888)
+* No token is required to access the interface
+
+> Make sure [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) is installed for `--gpus all` to work.
+
+### 🐍 Option 2: Local Python environment
+
+If you prefer not to use Docker, you can install the required packages directly.
+
+#### 1. Create and activate a virtual environment (optional but recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+#### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+> Some experiments (e.g., those using LLaMA or Hugging Face Hub models) may require additional setup such as API keys or model weights.
+
 ## 📊 Dataset Overview
 
 The **ReDSM5** corpus is a carefully curated collection of Reddit posts annotated for the nine clinical symptoms of depression defined by the DSM-5. Each post is analyzed at the sentence level by a licensed psychologist, and every label includes a concise clinical rationale. This section summarizes the dataset's main statistics and symptom distribution.
