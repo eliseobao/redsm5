@@ -50,11 +50,34 @@ redsm5/
 
 ```
 
+## 📥 How to Obtain the Dataset
+
+The **ReDSM5** dataset is available on the Hugging Face Hub. Follow these steps to access it:
+
+### 1. Visit the dataset page
+
+Navigate to [irlab‑udc/redsm5](https://huggingface.co/datasets/irlab-udc/redsm5). You'll find a full data card, usage details, and sample files including a **25‑entry anonymized preview** that you can download.
+
+### 2. Accept the access conditions
+
+The full dataset is gated. To gain access, you must:
+
+* Click **“Access Dataset”**
+* Agree to the dataset terms
+* Fill out the **ReDSM5 Agreement Form**
+* Send it via email to **[eliseo.bao@udc.es](mailto:eliseo.bao@udc.es)**
+  Once approved, you'll receive access instructions via email.
+
+### 📋 What you’ll get
+
+After access, the download includes (see full dataset card for details)
+
+* **redsm5\_posts.csv**: complete text of 1,484 posts
+* **redsm5\_annotations.csv**: sentence-level annotations including DSM-5 symptoms, clinician rationales, statuses, and sentence IDs
+
 ## 📊 Dataset Overview
 
 The **ReDSM5** corpus is a carefully curated collection of Reddit posts annotated for the nine clinical symptoms of depression defined by the DSM-5. Each post is analyzed at the sentence level by a licensed psychologist, and every label includes a concise clinical rationale. This section summarizes the dataset's main statistics and symptom distribution.
-
----
 
 ### 🧮 Main Statistics
 
@@ -68,8 +91,6 @@ The **ReDSM5** corpus is a carefully curated collection of Reddit posts annotate
 | Maximum words/post    | 6,990  | Long-form self-disclosures are common on Reddit                                  |
 
 > The presence of 392 "negative" cases provides valuable contrastive examples for learning fine-grained clinical distinctions in language.
-
----
 
 ### 📌 Symptom Frequency
 
@@ -87,8 +108,6 @@ The **ReDSM5** corpus is a carefully curated collection of Reddit posts annotate
 
 > The distribution is imbalanced across symptoms. This reflects clinical reality and presents additional challenges for multi-label classification, particularly for low-frequency classes such as appetite change and psychomotor alteration.
 
----
-
 ### 🏷️ Named Entity Distribution
 
 We applied Named Entity Recognition (NER) to identify structured elements such as dates, time spans, quantities, and people across DSM-5 symptom categories.
@@ -96,8 +115,6 @@ We applied Named Entity Recognition (NER) to identify structured elements such a
 ![Named Entity Recognition](analysis/visuals/png/ner.png)
 
 Temporal entities (DATE and TIME) were especially prevalent in *depressed mood*, *sleep issues*, and *suicidal thoughts*, reflecting the importance of time references in depressive narratives.
-
----
 
 ### 🧠 Topic Modeling
 
@@ -107,8 +124,6 @@ We used Latent Dirichlet Allocation (LDA) to uncover thematic contrasts between 
 ![WordCloud symptoms](analysis/visuals/png/wordcloud_symptoms.png)
 
 Posts without symptoms focused on hobbies and niche interests (e.g., "vanguard", "sampson"), whereas symptomatic posts emphasized introspection and affective language with words like "feel", "life", and "psychosis".
-
----
 
 ### 🎭 Emotion and Sentiment Profile
 
@@ -123,8 +138,6 @@ We analyzed emotional tone using the NRC Emotion Lexicon (based on Plutchik’s 
 * *Sleep issues* displayed a neutral emotional pattern
 
 These findings indicate that individual symptoms carry distinct emotional signals in social media narratives.
-
----
 
 ### ✍️ Grammar and Pronoun Use
 
@@ -162,17 +175,11 @@ We examined grammatical patterns by analyzing verb tense and pronoun usage acros
 
 Symptomatic posts consistently used more first-person singular (FPS) pronouns and present-tense verbs, indicating a personal and immediate tone. In contrast, non-symptomatic posts relied more on past tense and third-person singular (TPS), reflecting retrospective or external narratives.
 
----
-
 ## 📝 Citation
 
 *Coming soon - paper under submission.*  
 If you use this resource, please ⭐ star the repo and stay tuned for citation info.
 
----
-
 ## 📬 Contact
 
 For questions, please reach out via email: `eliseo.bao@udc.es`
-
----
