@@ -115,7 +115,7 @@ Posts without symptoms focused on hobbies and niche interests (e.g., "vanguard",
 We analyzed emotional tone using the NRC Emotion Lexicon (based on Plutchik’s model), computing the proportion of emotion-related words per symptom class.
 
 <div align="center">
-  <img src="analysis/visuals/png/plutchik.png" alt="Plutchik wheel of emotions" width="600"/>
+  <img src="analysis/visuals/png/plutchik.png" alt="Plutchik wheel of emotions" width="400"/>
 </div>
 
 * *Suicidal thoughts* posts showed the highest levels of **sadness** and **fear**
