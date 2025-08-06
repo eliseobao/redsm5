@@ -64,7 +64,7 @@ The full dataset is gated. To gain access, you must:
 
 * Click **“Access Dataset”**
 * Agree to the dataset terms
-* Fill out the **ReDSM5 Agreement Form**
+* Fill out the **[ReDSM5 Agreement Form](https://www.irlab.org/ReDSM5_agreement.odt)**
 * Send it via email to **[eliseo.bao@udc.es](mailto:eliseo.bao@udc.es)**
   Once approved, you'll receive access instructions via email.
 
