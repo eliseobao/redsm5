@@ -223,8 +223,20 @@ Symptomatic posts consistently used more first-person singular (FPS) pronouns an
 
 ## 📝 Citation
 
-*Coming soon - paper under submission.*  
-If you use this resource, please ⭐ star the repo and stay tuned for citation info.
+This paper has been accepted as a Resource Paper at **CIKM 2025**. The official conference proceedings will be available soon. In the meantime, you can read the preprint on [arXiv](https://www.arxiv.org/abs/2508.03399):
+
+```bibtex
+@misc{bao2025redsm5,
+  title        = {ReDSM5: A Reddit Dataset for DSM-5 Depression Detection},
+  author       = {Eliseo Bao and Anxo Pérez and Javier Parapar},
+  year         = {2025},
+  eprint       = {2508.03399},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.CL},
+  url          = {https://arxiv.org/abs/2508.03399},
+  note         = {Accepted at CIKM 2025}
+}
+```
 
 ## 📬 Contact
 
