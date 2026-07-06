@@ -223,7 +223,7 @@ Symptomatic posts consistently used more first-person singular (FPS) pronouns an
 
 ## 📝 Citation
 
-This paper has been accepted as a Resource Paper at **CIKM 2025**. The official conference proceedings will be available soon. In the meantime, you can read the preprint on [arXiv](https://www.arxiv.org/abs/2508.03399):
+This paper has been accepted as a [Resource Paper at **CIKM 2025**](https://dl.acm.org/doi/abs/10.1145/3746252.3761610). A preprint version is also available on [arXiv](https://arxiv.org/abs/2508.03399). However, we kindly ask that you cite the published version whenever possible.
 
 ```bibtex
 @inproceedings{10.1145/3746252.3761610,
